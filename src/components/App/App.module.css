@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+    background: #eee;
+}
+
+.header {
+    background-color: #400072;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
+
+header h1 {
+    font-family: Pacifico, sans-serif;
+    font-weight: 200;
+    font-size: 5.5vh;
+    padding-top: 1.5vh;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.subheading {
+    margin-top: -2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+}
+
+.subheading h2 {
+    font-size: 2vh;
+    color: #1BD760;
+    padding: 1vh;
+}
+
+.subheading svg {
+    height: 3vh;
+}
+
+.switcher {
+    display: block;
+    width: 100%;
+    background-color: #222;
+    padding: 0;
+    margin-top: 1vh;
+}
+
+.switcher ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.switcher li {
+    font-size: 1.2vh;
+    font-weight: 600;
+    padding: 1vh;
+    margin-left: 1vh;
+    color: #fff;
+    cursor: pointer;
+}
+
+.switcher li:hover {
+    background-color: #CAF55C;
+    color: #000;
+}
+
+.switcher li:first-child{
+    margin: 0;
+}
+
+.switcher li.active,
+  .switcher li.active:hover {
+    border-bottom: 1px solid #CAF55C;
+  }
+
+.section {
+    min-height: 74.3vh;
+    background: -moz-linear-gradient(top, #400072 0%, #1BD760 100%);
+    background: -webkit-linear-gradient(top, #400072 0%, #1BD760 100%);
+    background: linear-gradient(to bottom, #400072 0%, #1BD760 100%);
+    padding: 1vh;
+}
