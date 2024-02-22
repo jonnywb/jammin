@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Jammin'
+
+This application was built using Create React App, and was something that I worked on in preperation for my October 2023 Bootcamp with Northcoders. Using Codecademy, I learned some basic tools before the course even began. My plan was to learn as much as possible before the course, so that I could make the most of all information that was given. It would also enable me to create more advanced work when arriving at project phase. This does not mean that I didn't learn much throughout the course however, as many new skills including testing, paired programming, and also helped me to gain a better understanding and foundation of the skills I was learning.
+
+I've included this project in my portfolio as I think it can show my ability to quickly pick up new skills in a short amount of time. It has many inaccuracies, because my foundation and understanding was not as good at this point, but I believe that if you look at the difference between this project and my later projects, you'll be able to see a good difference in the quality of code and understanding of things - expecially promises, when fetching from the Spotify API is concerned.
+
+
+## More Info from Create React App:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
